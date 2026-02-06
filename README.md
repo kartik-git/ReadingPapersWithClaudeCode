@@ -13,16 +13,6 @@ When correctly set up, you can:
 
 ## Repository Structure
 
-.
-├── CLAUDE.md
-├── README.md
-└── context/
-├── skill.md
-├── runtime.md
-├── output_contract.md
-├── notebook_template.md
-└── checklists.md
-
 ### What each file does
 
 - **`CLAUDE.md`**  
@@ -89,10 +79,7 @@ If you are using **Claude Code**, this repository is designed to work as a **dro
 
 Place these files directly at the root of your Claude Code project:
 
-your-project/
-├── CLAUDE.md
-└── context/
-
+your-project/CLAUDE.md
 
 Claude Code will automatically:
 - Load `CLAUDE.md` as the system instruction
